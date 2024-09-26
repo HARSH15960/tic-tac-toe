@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design -->
+    <title>TIC TAC TOE GAME</title> <!-- Title of the game -->
+</head>
+<link rel="stylesheet" href="index.css"/> <!-- Link to the external CSS file for styling -->
+<body>
+    <!-- Container for displaying the winner message and new game button -->
+    <div class="msg-container hide">
+        <p id="msg">WINNER</p> <!-- Placeholder for winner message -->
+        <button id="new-btn">New Game</button> <!-- Button to start a new game -->
+    </div>
+    
+    <main>
+        <h1>TIC TAC TOE</h1> <!-- Main title of the game -->
+        
+        <div class="container">
+            <div class="game">
+                <!-- Game boxes (buttons) for player moves -->
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        
+        <!-- Button to reset the game -->
+        <button id="reset">reset game</button>
+    </main>
+    
+    <!-- Link to the external JavaScript file for game functionality -->
+    <script src="index.js"></script>
+</body>
+</html>

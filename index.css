@@ -1,0 +1,74 @@
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+body {
+    background-color: #548687; /* Background color of the page */
+    text-align: center; /* Center text alignment */
+}
+
+.container {
+    height: 70vh; /* Container height */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center child elements horizontally */
+    align-items: center; /* Center child elements vertically */
+    gap: 1.5vmin; /* Space between items */
+}
+
+.game {
+    height: 60vmin; /* Game board height */
+    width: 60vmin; /* Game board width */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of game boxes */
+    justify-content: center; /* Center boxes within the game area */
+    align-items: center; /* Center boxes vertically */
+    gap: 1.5vmin; /* Space between game boxes */
+}
+
+.box {
+    height: 18vmin; /* Height of each game box */
+    width: 18vmin; /* Width of each game box */
+    border: none; /* No border for boxes */
+    border-radius: 1rem; /* Rounded corners for boxes */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
+    font-size: 8vmin; /* Font size for text inside boxes */
+    color: #b0413e; /* Text color for box content */
+    background-color: #ffffc7; /* Background color for boxes */
+}
+
+#reset {
+    padding: 1rem; /* Padding for reset button */
+    font-size: 1.25rem; /* Font size for reset button */
+    background-color: #191913; /* Background color for reset button */
+    color: #fff; /* Text color for reset button */
+    border-radius: 1rem; /* Rounded corners for reset button */
+    border: 0.2rem dotted rgb(255, 234, 234); /* Dotted border for reset button */
+}
+
+#new-btn {
+    padding: 1rem; /* Padding for new game button */
+    font-size: 1.25rem; /* Font size for new game button */
+    background-color: #191913; /* Background color for new game button */
+    color: #fff; /* Text color for new game button */
+    border-radius: 1rem; /* Rounded corners for new game button */
+    border: 0.2rem dotted rgb(255, 234, 234); /* Dotted border for new game button */
+}
+
+#msg {
+    color: #6aff00; /* Color for winner message */
+    font-size: 5vmin; /* Font size for winner message */
+}
+
+.msg-container {
+    height: 100vmin; /* Full viewport height for message container */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack items vertically */
+    gap: 4rem; /* Space between items */
+}
+
+.hide {
+    display: none; /* Hide elements with this class */
+}
